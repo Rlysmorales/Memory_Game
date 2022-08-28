@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid cyan; */
+  }
+main{
+    width: 900px;
+    height: 900px;
+    background-image: url("lights-image.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    position: static;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+.lightimage{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
